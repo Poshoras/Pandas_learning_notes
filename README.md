@@ -3,17 +3,17 @@ Vscode和jupyter不完全一样，并不是把代码和表格放到一起就可�
 
 下面是一个调整代码地址的示例：
 
-
+```python
 import os
 os.chdir(os.path.dirname(__file__))
 
 import pandas as pd
 df = pd.read_excel('plan.xlsx')
 print(df.head())
+```
 
 
-
-那如何自主调整筛选范围呢？
+# 如何自主调整读取数据范围？
 ```python
 import pandas as pd
 df  = pd.read_excel('plan.xlsx',sheet = '****',header = 1)
