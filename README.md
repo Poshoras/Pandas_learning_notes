@@ -11,3 +11,9 @@ import pandas as pd
 df = pd.read_excel('plan.xlsx')
 print(df.head())
 
+# 自主调整筛选范围
+```python
+import pandas as pd
+df  = pd.read_excel('plan.xlsx',sheet = '****',header = 1)
+
+header=1意为把第二行当作读取的第一行（原因可能是第一行有太多废话了）
