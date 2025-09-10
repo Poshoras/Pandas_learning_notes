@@ -1,1 +1,4 @@
-# Pandas_learning_notes
+# 保持文件地址统一
+Vscode和jupyter不完全一样，并不是把代码和表格放到一起就可以运行，要手动将代码的目录调整到表格的文件夹中。
+
+<pre> ''' python print(1) ''' </pre>
