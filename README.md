@@ -10,9 +10,9 @@ os.chdir(os.path.dirname(__file__))
 import pandas as pd
 df = pd.read_excel('plan.xlsx')
 print(df.head())
+```python
 
 # 自主调整筛选范围
-```python
 import pandas as pd
 df  = pd.read_excel('plan.xlsx',sheet = '****',header = 1)
 
