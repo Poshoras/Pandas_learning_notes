@@ -13,7 +13,7 @@ print(df.head())
 
 
 
-# 自主调整筛选范围
+那如何自主调整筛选范围呢？
 import pandas as pd
 df  = pd.read_excel('plan.xlsx',sheet = '****',header = 1)
 
